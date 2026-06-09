@@ -1,0 +1,6 @@
+.bg-custom{
+
+    background-image: url(../img/banner.jpg);
+    opacity: 0.5;
+    background-size: cover;
+}
