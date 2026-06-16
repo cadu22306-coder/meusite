@@ -11,38 +11,40 @@
     <script defer src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
         crossorigin="anonymous"></script>
-        <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+
+    <script type="module" src="assets/js/Lib.js"></script>
+
 </head>
 
 <body>
 
     <header>
-
+        <dz-navbar></dz-navbar>
     </header>
 
     <main>
         <section>
             <div class="container p-5">
                 <div class="text-center">
-                   
-                    <div class="">
-                        <img src="assets/img/banner.jpg" alt="">
-                        <img class="d-flex" src="assets/img/perfil.png" alt="">
+
+                    <div>
+
+                        <img class="img-fluid" src="assets/img/fundo.jpg" alt="">
+                        <img src="" alt="">
                     </div>
                     <h1>
                         Carlos Eduardo
                     </h1>
-                    <span>
+                    <span class="fw-bolder">
                         Especialista em Front-end & Desgn
                     </span>
                 </div>
                 <p>
-                    Sou uma pessoa que pensa muito sobre as coisas e costuma guardar bastante do que sente. Ao longo
-                    da minha vida passei por momentos difíceis que me trouxeram tristeza, ansiedade, raiva e sensação de
-                    solidão. Tenho dificuldade em lidar com algumas situações familiares e, às vezes, isso afeta minha
-                    autoestima e minha forma de enxergar a vida. Apesar disso, continuo tentando seguir em frente,
-                    entender melhor meus sentimentos e encontrar maneiras de melhorar como pessoa.
-
+                    Sou uma pessoa que pensa bastante sobre a própria vida e está sempre tentando entender melhor quem
+                    é. Já passei por momentos difíceis, mas continuo buscando crescer, aprender e encontrar meu caminho.
+                    Gosto de tecnologia, animes, jogos e de conversar sobre assuntos que fazem pensar. Nem sempre tenho
+                    todas as respostas, mas procuro evoluir um pouco a cada dia e ser mais forte do que fui ontem.
                 </p>
                 <div class="row text-center">
                     <span class="col border rounded bg-body-tertiary mx-1 fw-bold">
@@ -69,9 +71,23 @@
                 <p> Os pricipais desenvolvimentos realizados durante a formação técnica</p>
             </div>
 
-            <div>
-                <img src="assets/img/placeholder-project01.png" alt="">
+            <div class="card" style="width: 18rem;">
+                <svg aria-label="Placeholder: Image cap" class="bd-placeholder-img card-img-top" height="180"
+                    preserveAspectRatio="xMidYMid slice" role="img" width="100%" xmlns="http://www.w3.org/2000/svg">
+                    <title>Placeholder</title>
+                    <rect width="100%" height="100%" fill="#868e96"></rect><text x="50%" y="50%" fill="#dee2e6"
+                        dy=".3em">Image cap</text>
+                </svg>
+                <div class="card-body">
+                    <h5 class="card-title">titulo</h5>
+                    <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus sapiente
+                        alias voluptatibus a eaque fuga eos ex ducimus sed mollitia, corrupti quaerat praesentium eum
+                        qui dicta blanditiis dolor nam vel.</p>
+                    <a href="#" class="btn btn-primary">acessar</a>
+                </div>
+            </div>
 
+            <div class="text-center">
 
             </div>
         </section>
